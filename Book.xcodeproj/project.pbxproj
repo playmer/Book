@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED50FE315AF934400E6BF9A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED50FE215AF934400E6BF9A /* UIKit.framework */; };
+		EED50FE515AF934400E6BF9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED50FE415AF934400E6BF9A /* Foundation.framework */; };
+		EED50FE715AF934400E6BF9A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED50FE615AF934400E6BF9A /* CoreGraphics.framework */; };
+		EED50FED15AF934400E6BF9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EED50FEB15AF934400E6BF9A /* InfoPlist.strings */; };
+		EED50FEF15AF934400E6BF9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED50FEE15AF934400E6BF9A /* main.m */; };
+		EED50FF315AF934400E6BF9A /* bookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED50FF215AF934400E6BF9A /* bookAppDelegate.m */; };
+		EED50FF615AF934400E6BF9A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED50FF415AF934400E6BF9A /* MainStoryboard.storyboard */; };
+		EED50FF915AF934400E6BF9A /* bookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED50FF815AF934400E6BF9A /* bookViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EED50FDE15AF934400E6BF9A /* Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED50FE215AF934400E6BF9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EED50FE415AF934400E6BF9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EED50FE615AF934400E6BF9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EED50FEA15AF934400E6BF9A /* Book-Info.plist */ = {isa = PBXFileReference; path = "Book-Info.plist"; sourceTree = "<group>"; };
+		EED50FEC15AF934400E6BF9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EED50FEE15AF934400E6BF9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EED50FF015AF934400E6BF9A /* Book-Prefix.pch */ = {isa = PBXFileReference; path = "Book-Prefix.pch"; sourceTree = "<group>"; };
+		EED50FF115AF934400E6BF9A /* bookAppDelegate.h */ = {isa = PBXFileReference; path = bookAppDelegate.h; sourceTree = "<group>"; };
+		EED50FF215AF934400E6BF9A /* bookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookAppDelegate.m; sourceTree = "<group>"; };
+		EED50FF515AF934400E6BF9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EED50FF715AF934400E6BF9A /* bookViewController.h */ = {isa = PBXFileReference; path = bookViewController.h; sourceTree = "<group>"; };
+		EED50FF815AF934400E6BF9A /* bookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED50FDB15AF934400E6BF9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED50FE315AF934400E6BF9A /* UIKit.framework in Frameworks */,
+				EED50FE515AF934400E6BF9A /* Foundation.framework in Frameworks */,
+				EED50FE715AF934400E6BF9A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED50FD315AF934400E6BF9A = {
+			isa = PBXGroup;
+			children = (
+				EED50FE815AF934400E6BF9A /* Book */,
+				EED50FE115AF934400E6BF9A /* Frameworks */,
+				EED50FDF15AF934400E6BF9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED50FDF15AF934400E6BF9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED50FDE15AF934400E6BF9A /* Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED50FE115AF934400E6BF9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EED50FE215AF934400E6BF9A /* UIKit.framework */,
+				EED50FE415AF934400E6BF9A /* Foundation.framework */,
+				EED50FE615AF934400E6BF9A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED50FE815AF934400E6BF9A /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				EED50FF115AF934400E6BF9A /* bookAppDelegate.h */,
+				EED50FF215AF934400E6BF9A /* bookAppDelegate.m */,
+				EED50FF415AF934400E6BF9A /* MainStoryboard.storyboard */,
+				EED50FF715AF934400E6BF9A /* bookViewController.h */,
+				EED50FF815AF934400E6BF9A /* bookViewController.m */,
+				EED50FE915AF934400E6BF9A /* Supporting Files */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		EED50FE915AF934400E6BF9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EED50FEA15AF934400E6BF9A /* Book-Info.plist */,
+				EED50FEB15AF934400E6BF9A /* InfoPlist.strings */,
+				EED50FEE15AF934400E6BF9A /* main.m */,
+				EED50FF015AF934400E6BF9A /* Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED50FDD15AF934400E6BF9A /* Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED50FFC15AF934400E6BF9A /* Build configuration list for PBXNativeTarget "Book" */;
+			buildPhases = (
+				EED50FDA15AF934400E6BF9A /* Sources */,
+				EED50FDB15AF934400E6BF9A /* Frameworks */,
+				EED50FDC15AF934400E6BF9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Book;
+			productName = Book;
+			productReference = EED50FDE15AF934400E6BF9A /* Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED50FD515AF934400E6BF9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = book;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EED50FD815AF934400E6BF9A /* Build configuration list for PBXProject "Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EED50FD315AF934400E6BF9A;
+			productRefGroup = EED50FDF15AF934400E6BF9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED50FDD15AF934400E6BF9A /* Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED50FDC15AF934400E6BF9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED50FED15AF934400E6BF9A /* InfoPlist.strings in Resources */,
+				EED50FF615AF934400E6BF9A /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED50FDA15AF934400E6BF9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED50FEF15AF934400E6BF9A /* main.m in Sources */,
+				EED50FF315AF934400E6BF9A /* bookAppDelegate.m in Sources */,
+				EED50FF915AF934400E6BF9A /* bookViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EED50FEB15AF934400E6BF9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED50FEC15AF934400E6BF9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EED50FF415AF934400E6BF9A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED50FF515AF934400E6BF9A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED50FFA15AF934400E6BF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EED50FFB15AF934400E6BF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED50FFD15AF934400E6BF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Book/Book-Prefix.pch";
+				INFOPLIST_FILE = "Book/Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EED50FFE15AF934400E6BF9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Book/Book-Prefix.pch";
+				INFOPLIST_FILE = "Book/Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED50FD815AF934400E6BF9A /* Build configuration list for PBXProject "Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED50FFA15AF934400E6BF9A /* Debug */,
+				EED50FFB15AF934400E6BF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED50FFC15AF934400E6BF9A /* Build configuration list for PBXNativeTarget "Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED50FFD15AF934400E6BF9A /* Debug */,
+				EED50FFE15AF934400E6BF9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED50FD515AF934400E6BF9A /* Project object */;
+}
